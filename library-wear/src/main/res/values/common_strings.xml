@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Keys -->
+    <string name="hourglass_key_analog">ANALOG_WATCHFACE</string>
+
+    <!-- Debugging -->
+    <string name="hourglass_debug_mode">DEBUG_MODE</string>
+    <string name="hourglass_ambient">DEBUG_AMBIENT_MODE</string>
+    <string name="hourglass_debug_date">DEBUG_DATE</string>
+    <string name="hourglass_debug_date_year">DEBUG_YR</string>
+    <string name="hourglass_debug_date_month">DEBUG_MN</string>
+    <string name="hourglass_debug_date_date">DEBUG_DT</string>
+    <string name="hourglass_debug_time">DEBUG_TIME</string>
+    <string name="hourglass_debug_time_hour">DEBUG_HOUR</string>
+    <string name="hourglass_debug_time_minute">DEBUG_MIN</string>
+    <string name="hourglass_debug_time_second">DEBUG_SEC</string>
+
+    <!-- Settings -->
+    <string name="hourglass_analog_smooth_scroll">SMOOTH_SCROLL</string>
+    <string name="hourglass_analog_smooth_scroll_title">Smooth Seconds Hand</string>
+    <string name="hourglass_date_format">DATE_FORMAT</string>
+    <string name="hourglass_time_format">TIME_FORMAT</string>
+
+    <string name="hourglass_date_date1">dd</string>
+    <string name="hourglass_date_date2">EEEE</string>
+    <string name="hourglass_date_date3">EEE dd</string>
+    <string name="hourglass_date_date4">MMM dd</string>
+    <string name="hourglass_date_date5">MMMM dd</string>
+    <string name="hourglass_date_date6">dd MMMM</string>
+    <string name="hourglass_date_date7">EEE, MMMM dd</string>
+    <string name="hourglass_date_date8">EEE, dd MMMM</string>
+    <string name="hourglass_date_date9">EEE, dd MMMM yyyy</string>
+    <string name="hourglass_date_date10">MM/dd/yy</string>
+    <string name="hourglass_date_date11">dd/MM/yy</string>
+    <string-array name="hourglass_date_format_list">
+        <item>@string/hourglass_date_date1</item>
+        <item>@string/hourglass_date_date2</item>
+        <item>@string/hourglass_date_date3</item>
+        <item>@string/hourglass_date_date4</item>
+        <item>@string/hourglass_date_date5</item>
+        <item>@string/hourglass_date_date6</item>
+        <item>@string/hourglass_date_date7</item>
+        <item>@string/hourglass_date_date8</item>
+        <item>@string/hourglass_date_date9</item>
+        <item>@string/hourglass_date_date10</item>
+        <item>@string/hourglass_date_date11</item>
+    </string-array>
+
+    <string name="hourglass_time_time1">hh:mm:ss</string>
+    <string name="hourglass_time_time2">hh:mm</string>
+    <string name="hourglass_time_time3">kk:mm:ss</string>
+    <string name="hourglass_time_time4">kk:mm</string>
+    <string name="hourglass_time_time5">hh:mmaa</string>
+    <string-array name="hourglass_time_format_list">
+        <item>@string/hourglass_time_time1</item>
+        <item>@string/hourglass_time_time2</item>
+        <item>@string/hourglass_time_time3</item>
+        <item>@string/hourglass_time_time4</item>
+        <item>@string/hourglass_time_time5</item>
+    </string-array>
+
+    <string name="hourglass_message_mobile_resume">mobile-on</string>
+    <string name="hourglass_message_mobile_stop">mobile-off</string>
+
+    <string name="hourglass_data_phone_battery">PBATTERY</string>
+</resources>

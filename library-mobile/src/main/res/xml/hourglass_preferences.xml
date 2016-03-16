@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.jenzz.materialpreference.PreferenceCategory
+        android:key="@string/hourglass_key_analog"
+        android:title="Analog Watchface">
+        <com.jenzz.materialpreference.SwitchPreference
+            android:key="@string/hourglass_analog_smooth_scroll"
+            android:title="@string/hourglass_analog_smooth_scroll_title"/>
+    </com.jenzz.materialpreference.PreferenceCategory>
+    <com.jenzz.materialpreference.PreferenceCategory
+        android:title="Display">
+        <com.jenzz.materialpreference.Preference
+            android:key="@string/hourglass_date_format"
+            android:title="Date Format"/>
+        <com.jenzz.materialpreference.Preference
+            android:key="@string/hourglass_time_format"
+            android:title="Time Format"/>
+    </com.jenzz.materialpreference.PreferenceCategory>
+    <com.jenzz.materialpreference.PreferenceCategory
+        android:title="Debug">
+        <com.jenzz.materialpreference.SwitchPreference
+            android:key="@string/hourglass_debug_mode"
+            android:defaultValue="false"
+            android:title="Debug Mode"/>
+        <com.jenzz.materialpreference.SwitchPreference
+            android:key="@string/hourglass_ambient"
+            android:title="Ambient Mode"/>
+        <com.jenzz.materialpreference.Preference
+            android:key="@string/hourglass_debug_time"
+            android:title="Change Time"/>
+        <com.jenzz.materialpreference.Preference
+            android:key="@string/hourglass_debug_date"
+            android:title="Change Date"/>
+    </com.jenzz.materialpreference.PreferenceCategory>
+    <com.jenzz.materialpreference.PreferenceCategory
+        android:title="General">
+        <com.jenzz.materialpreference.Preference
+            android:title="About"
+            android:key="about"/>
+    </com.jenzz.materialpreference.PreferenceCategory>
+</PreferenceScreen>
